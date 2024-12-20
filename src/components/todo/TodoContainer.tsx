@@ -7,14 +7,13 @@ const TodoContainer = () => {
         <button>Add todo</button>
         <button>Filter</button>
       </div>
-      <div className="bg-red-500 w-full h-full rounded-xl p-5 space-y-3">
-        {/* <TodoCard />
-        <TodoCard />
-        <TodoCard />
-        <TodoCard />
-        <TodoCard /> */}
-        <div className="bg-white rounded-xl p-5 flex justify-center items-center text-2xl font-bold">
-          <p>There is no task pending</p>
+      <div className="bg-primary-gradient w-full h-full rounded-xl  p-[5px]">
+        <div className="bg-white p-5 w-full h-full rounded-lg space-y-3">
+          <TodoCard />
+          <TodoCard />
+          <TodoCard />
+          <TodoCard />
+          <TodoCard />
         </div>
       </div>
     </div>
